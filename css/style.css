@@ -1,0 +1,38 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inicio{
+    text-align: center;
+}
+
+h3,h1 {
+    text-align: center;
+    color: darkmagenta;   
+}
+
+.conteudo {
+    text-align: left;
+    margin-left:37%;
+}
+
+input, button{    
+    border: 1px solid thistle;
+    padding: 5px;
+    font-size: 20px;
+    margin: 2px;
+}
+
+button:hover{
+    background-color: darkmagenta;
+    color:white;
+}
+#fazer{
+    font-size: 20px; 
+    color: darkmagenta;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: rebeccapurple;
+}
